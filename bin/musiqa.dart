@@ -1,59 +1,59 @@
-import 'dart:collection';
+// import 'dart:collection';
 
-abstract class Instrument {
-  void getName();
+// abstract class Instrument {
+//   void getName();
 
-  void playSound();
-}
+//   void playSound();
+// }
 
-class Guiter extends Instrument with Tunable {
-  @override
-  void getName() {
-    print("Guiter");
-  }
+// class Guiter extends Instrument with Tunable {
+//   @override
+//   void getName() {
+//     print("Guiter");
+//   }
 
-  @override
-  void playSound() {
-    print("Ding ding");
-  }
+//   @override
+//   void playSound() {
+//     print("Ding ding");
+//   }
 
-  @override
-  void tuneDown() {
-    print("Ovoz pasaytirildi");
-  }
-}
+//   @override
+//   void tuneDown() {
+//     print("Ovoz pasaytirildi");
+//   }
+// }
 
-class Piano extends Instrument with Tunable {
-  @override
-  void getName() {
-    print("Piano");
-  }
+// class Piano extends Instrument with Tunable {
+//   @override
+//   void getName() {
+//     print("Piano");
+//   }
 
-  @override
-  void playSound() {
-    print("ting ting");
-  }
+//   @override
+//   void playSound() {
+//     print("ting ting");
+//   }
 
-  @override
-  void tuneUp() {
-    print("Ovoz ko'tarildi");
-  }
-}
+//   @override
+//   void tuneUp() {
+//     print("Ovoz ko'tarildi");
+//   }
+// }
 
-mixin Tunable {
-  void tuneUp() {
-    print("Ovoz ko'tarildi");
-  }
+// mixin Tunable {
+//   void tuneUp() {
+//     print("Ovoz ko'tarildi");
+//   }
 
-  void tuneDown() {
-    print("Ovoz pasaytirildi");
-  }
-}
+//   void tuneDown() {
+//     print("Ovoz pasaytirildi");
+//   }
+// }
 
-void main(List<String> args) {
-  List<Instrument> band = [Guiter(), Piano()];
+// void main(List<String> args) {
+//   List<Instrument> band = [Guiter(), Piano()];
 
-  for (var intru in band) {
-    print("${intru.getName()} is pllaying");
-  }
-}
+//   for (var intru in band) {
+//     print("${intru.getName()} is pllaying");
+//   }
+// }
