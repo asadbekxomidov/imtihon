@@ -1,6 +1,5 @@
-import 'package:imtihon/imtihon.dart' as imtihon;
+// import 'package:http/http.dart' as http;
 
-void main(List<String> arguments) {
-  print('Hello world: ${imtihon.calculate()}!');
-}
+// void main(List<String> arguments) {
+// }
 
